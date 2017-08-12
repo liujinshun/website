@@ -1,0 +1,76 @@
+2017-08-07 08:52:27,688 [uWSGIWorker4Core0:139864841094912] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /tag/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/Django-1.11.3-py2.7.egg/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/Django-1.11.3-py2.7.egg/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/Django-1.11.3-py2.7.egg/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "./myapp/views.py", line 79, in tag
+    logger.error(e)
+  File "/usr/lib/python2.7/logging/__init__.py", line 1193, in error
+    self._log(ERROR, msg, args, **kwargs)
+  File "/usr/lib/python2.7/logging/__init__.py", line 1286, in _log
+    self.handle(record)
+  File "/usr/lib/python2.7/logging/__init__.py", line 1296, in handle
+    self.callHandlers(record)
+  File "/usr/lib/python2.7/logging/__init__.py", line 1343, in callHandlers
+    " \"%s\"\n" % self.name)
+IOError: [Errno 5] Input/output error
+2017-08-07 08:52:34,312 [uWSGIWorker2Core1:139864724264704] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /tag/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/Django-1.11.3-py2.7.egg/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/Django-1.11.3-py2.7.egg/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/Django-1.11.3-py2.7.egg/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "./myapp/views.py", line 79, in tag
+    logger.error(e)
+  File "/usr/lib/python2.7/logging/__init__.py", line 1193, in error
+    self._log(ERROR, msg, args, **kwargs)
+  File "/usr/lib/python2.7/logging/__init__.py", line 1286, in _log
+    self.handle(record)
+  File "/usr/lib/python2.7/logging/__init__.py", line 1296, in handle
+    self.callHandlers(record)
+  File "/usr/lib/python2.7/logging/__init__.py", line 1343, in callHandlers
+    " \"%s\"\n" % self.name)
+IOError: [Errno 5] Input/output error
+2017-08-07 11:47:04,695 [uWSGIWorker4Core1:139864724264704] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /tag/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/Django-1.11.3-py2.7.egg/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/Django-1.11.3-py2.7.egg/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/Django-1.11.3-py2.7.egg/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "./myapp/views.py", line 79, in tag
+    logger.error(e)
+  File "/usr/lib/python2.7/logging/__init__.py", line 1193, in error
+    self._log(ERROR, msg, args, **kwargs)
+  File "/usr/lib/python2.7/logging/__init__.py", line 1286, in _log
+    self.handle(record)
+  File "/usr/lib/python2.7/logging/__init__.py", line 1296, in handle
+    self.callHandlers(record)
+  File "/usr/lib/python2.7/logging/__init__.py", line 1343, in callHandlers
+    " \"%s\"\n" % self.name)
+IOError: [Errno 5] Input/output error
+2017-08-07 11:54:45,835 [uWSGIWorker3Core1:140643856512768] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /tag/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/Django-1.11.3-py2.7.egg/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/Django-1.11.3-py2.7.egg/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/Django-1.11.3-py2.7.egg/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "./myapp/views.py", line 79, in tag
+    logger.error(e)
+  File "/usr/lib/python2.7/logging/__init__.py", line 1193, in error
+    self._log(ERROR, msg, args, **kwargs)
+  File "/usr/lib/python2.7/logging/__init__.py", line 1286, in _log
+    self.handle(record)
+  File "/usr/lib/python2.7/logging/__init__.py", line 1296, in handle
+    self.callHandlers(record)
+  File "/usr/lib/python2.7/logging/__init__.py", line 1343, in callHandlers
+    " \"%s\"\n" % self.name)
+IOError: [Errno 5] Input/output error
